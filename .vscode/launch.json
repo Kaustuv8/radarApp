@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-Djava.library.path=/absolute/path/to/libs"
+        },
+        {
+            "type": "java",
+            "name": "ElevationHeatmapViewer",
+            "request": "launch",
+            "mainClass": "ElevationHeatmapViewer",
+            "projectName": "radarLosCalc_c65533c7"
+        },
+        {
+            "type": "java",
+            "name": "TestGDAL",
+            "request": "launch",
+            "mainClass": "TestGDAL",
+            "projectName": "radarLosCalc_c65533c7"
+        },
+        {
+            "type": "java",
+            "name": "accessFolderData",
+            "request": "launch",
+            "mainClass": "accessFolderData",
+            "projectName": "radarLosCalc_c65533c7"
+        },
+        {
+            "type": "java",
+            "name": "checkFolder",
+            "request": "launch",
+            "mainClass": "checkFolder",
+            "projectName": "radarLosCalc_c65533c7"
+        },
+        {
+            "type": "java",
+            "name": "TileManager",
+            "request": "launch",
+            "mainClass": "helperfn.TileManager",
+            "projectName": "radarLosCalc_c65533c7"
+        }
+    ]
+}

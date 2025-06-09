@@ -1,0 +1,21 @@
+--------> Set the UI buttons and labels to the West.✅
+--------> Make the map interactable (zoom in, zoom out, pan). ✅
+--------> Make the radar region changeble with mouse click. ✅
+            --------> For this, ensure that coordinates can be obtained by just a mouse click.✅
+            --------> set the radar such that any region out of bounds is simply not covered.✅
+                        ---------> This also includes being able to change the radius of the radar. ✅
+--------> Implement and load more tiles that can be explored at once.✅ 
+--------> Implement a system where you can load radar coverage seamlessly throughout the tiles. ✅
+--------> Make a dual view mode. ✅
+            --------> One to show the state borderlayout of India and maybe neighboring regions as an expanded view. ✅
+            --------> Another view to show the close up elevation data (already implemented to an extent). ✅
+
+New task and improvements
+
+-> implement MapContent.dispose() method to handle memory leak. ✅
+-> download better data to iron out any errors in loading. ✅
+-> improve radarLos calculaion so that height of the terrain is added to the height of the added radar. ✅
+-> Figure out how to install this on ubuntu.
+    -> Install JDK for this version. 
+    -> Download the appropriate version of GDAL. 
+-> Tidy up the code.
